@@ -1,0 +1,25 @@
+mat-sidenav-container{
+    height: calc(205vh - 115vh);
+}
+mat-sidenav{
+    width: 200px;
+    background-color:rgb(92, 127, 177) ;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  .main-body {
+    padding-top: 20px;
+    margin: 0 auto;
+    max-width: 1348px;
+    mat-form-field {
+      width: 100%;
+    }
+  }
+  
+  .action {
+    display: flex;
+    gap: 5px;
+  }

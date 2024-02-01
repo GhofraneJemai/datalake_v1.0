@@ -1,0 +1,16 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:  #395aad;
+    width:1240px;
+	height:200px;
+	position:absolute;
+	top:500px;
+
+}
+fieldset{
+    position: absolute;
+    top: 0px;
+    width: 700px;
+
+}
