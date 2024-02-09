@@ -1,4 +1,55 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #ebebe1;
+  }
+  mat-sidenav-content{
+    background-image: url(13.jpg);
+    background-size: cover;
+  } 
+  
+  .background {
+    position: absolute;
+    top: 20px;
+    left: 350px;
+    width: 600px;
+    height: 60px;
+    background-color: white;
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+  }
 form{
     position: absolute;
-    top: 0px;
+    top: 50px;
+    left: 250px;
+}
+mat-sidenav-container{
+    height: calc(205vh - 115vh);
+}
+mat-sidenav{
+    width: 200px;
+    background-color:rgb(92, 127, 177) ;
+}    
+.image{
+  width: 100px;
+}
+.image2{
+  position: relative ;
+  top: 150px;
+  left: 700px;
+  width: 500px;
+
+}
+h4{
+  color: white;
 }

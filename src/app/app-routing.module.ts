@@ -15,11 +15,16 @@ const routes: Routes = [
     path:'', redirectTo:'index',pathMatch:'full'
   },
   {
-    path: 'index', component: IndexComponent, children: [
-        { path: 'about-us', component: AboutUsComponent },
-        { path: 'login', component: LoginComponent },
-        { path: 'register', component: RegisterComponent},
-    ]
+    path: 'index', component: IndexComponent
+  },
+  {
+    path: 'about-us', component: AboutUsComponent
+  },
+  {
+    path: 'login', component: LoginComponent
+  },
+  {
+    path: 'register', component: RegisterComponent
   },
 
 ];

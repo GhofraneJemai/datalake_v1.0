@@ -1,24 +1,33 @@
 <mat-toolbar color="primary">
     <mat-toolbar-row>
-      <h4>Datalake</h4>
+      <img src="assets/images/6.png" class="image">
+      <h4>..................</h4>
       <button mat-button (click)="opened=!opened"><mat-icon>menu</mat-icon></button>
       <button mat-button><mat-icon>home</mat-icon> Home</button>
     </mat-toolbar-row>
   </mat-toolbar>
     <mat-sidenav-container >
-      <mat-sidenav [(opened)]="opened" mode="side">
+      <mat-sidenav [(opened)]="opened" mode="over">
 
         <mat-list>
-            <mat-list-item [routerLink]="['../index']">Home</mat-list-item>
-            <mat-list-item [routerLink]="['about-us']">About-Us</mat-list-item>
-            <mat-list-item [routerLink]="['login']">Login</mat-list-item>
-            <mat-list-item [routerLink]="['register']">Register</mat-list-item>
+          <mat-list-item [routerLink]="['../index']">Home</mat-list-item>
+          <mat-list-item [routerLink]="['../about-us']">About-Us</mat-list-item>
+          <mat-list-item [routerLink]="['../login']">Login</mat-list-item>
+          <mat-list-item [routerLink]="['../register']">Register</mat-list-item>
         </mat-list>
 
 
       </mat-sidenav>
       <mat-sidenav-content>
-        <img src="assets/images/Datalake.png">
+        <div class="banner">
+          <div class="background"></div>
+          <div class="text">Home</div>
+        </div>
+        <fieldset>
+          <legend><h3>Bienvenus</h3></legend>
+          Nous sommes un cabinet de conseil expert de la donnée et de la transformation digitale des organisations,<br><br> réalisant des prestations sur toutes les phases des projets de développement, en MOE, en production,<br><br> jusqu’à l’assistance technique ou fonctionnelle.<br><br> Notre ambition est d’offrir à nos clients une large gamme de prestations de services combinant maîtrise de la technologie informatique et connaissance de leur métier
+        </fieldset>
+        <img src="assets/images/Datalake.png" class="image2">
         <router-outlet></router-outlet>
       </mat-sidenav-content>
     </mat-sidenav-container>

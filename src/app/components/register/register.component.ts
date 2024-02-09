@@ -11,6 +11,7 @@ import { User } from '../../interfaces/auth';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent {
+  opened=false;
 
   registerForm = this.fb.group({
     fullName: ['', [Validators.required, Validators.pattern(/^[a-zA-Z]+(?: [a-zA-Z]+)*$/)]],
