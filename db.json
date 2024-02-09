@@ -1,30 +1,8 @@
 {
   "users": [
-    {
-      "id": "c5fe",
-      "fullName": "Ghofrane",
-      "email": "ghofrane@gmail.com",
-      "password": "1234"
-    },
-    {
-      "id": "1cd6",
-      "fullName": "Ghaith",
-      "email": "ghaith@gmail.com",
-      "password": "5678"
-    }
+
   ],
   "employees": [
-    {
-      "id": "24c5",
-      "firstName": "ghaith",
-      "lastName": "jemai",
-      "email": "ghaith@gmail.com",
-      "dob": "1996-06-24T22:00:00.000Z",
-      "gender": "male",
-      "education": "Diploma",
-      "company": "Apple",
-      "experience": 5,
-      "package": 20
-    }
+    
   ]
 }
