@@ -1,8 +1,9 @@
 <mat-toolbar color="primary">
   <mat-toolbar-row>
-  <span>Datalake</span>
+  <img src="assets/images/6.png" class="image">
+  <h4>..................</h4>
   <button mat-button (click)="opened=!opened"><mat-icon>menu</mat-icon></button>
-  <button mat-button><mat-icon>home</mat-icon> Home</button>
+  <button mat-button [routerLink]="['../index']" ><mat-icon>home</mat-icon> Home</button>
   <span class="example-spacer"></span>
   <button mat-raised-button (click)="openAddEditEmpForm()">
     ADD EMPLOYEE
@@ -14,9 +15,9 @@
 
     <mat-list>
         <mat-list-item [routerLink]="['../index']">Home</mat-list-item>
-        <mat-list-item [routerLink]="['../index/about-us']">About-Us</mat-list-item>
-        <mat-list-item [routerLink]="['../index/login']">Log-Out</mat-list-item>
-        <mat-list-item [routerLink]="['../index/register']">Register</mat-list-item>
+        <mat-list-item [routerLink]="['../about-us']">About-Us</mat-list-item>
+        <mat-list-item [routerLink]="['../login']">Log-Out</mat-list-item>
+        <mat-list-item [routerLink]="['../register']">Register</mat-list-item>
     </mat-list>
 
 

@@ -1,8 +1,54 @@
 {
   "users": [
-
+    {
+      "id": "7fec",
+      "fullName": "la manouuu tries",
+      "email": "manman@gmail.com",
+      "password": "manyaghofhel"
+    },
+    {
+      "id": "3eb8",
+      "fullName": "Ghaith",
+      "email": "ghaith@gmail.com",
+      "password": "ghaith123"
+    },
+    {
+      "id": "5a5a",
+      "fullName": "ahmed",
+      "email": "ahmed@gmail.com",
+      "password": "ahmed123"
+    },
+    {
+      "id": "e97a",
+      "fullName": "farah",
+      "email": "farah@gmail.com",
+      "password": "farah123"
+    }
   ],
   "employees": [
-    
+    {
+      "id": "97f7",
+      "firstName": "man",
+      "lastName": "men",
+      "email": "man@gmail.com",
+      "dob": "0200-11-10T23:50:39.000Z",
+      "gender": "female",
+      "education": "Graduate",
+      "company": "neopolis",
+      "experience": 10,
+      "package": 200
+    },
+    {
+      "id": "5598",
+      "firstName": "farah",
+      "lastName": "farah",
+      "email": "farah@gmail.com",
+      "dob": "1999-12-31T23:00:00.000Z",
+      "gender": "female",
+      "education": "Post Graduate",
+      "company": "google",
+      "experience": 2,
+      "package": 30
+    }
   ]
 }
