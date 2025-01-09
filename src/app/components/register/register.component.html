@@ -2,7 +2,7 @@
     <mat-toolbar-row>
       <img src="assets\images\6.png" class="image">
       <button mat-button (click)="opened=!opened"><mat-icon>menu</mat-icon></button>
-      <button mat-button><mat-icon>home</mat-icon> Home</button>
+      <button mat-button [routerLink]="['../index']" ><mat-icon>home</mat-icon> Home</button>
     </mat-toolbar-row>
   </mat-toolbar>
     <mat-sidenav-container >

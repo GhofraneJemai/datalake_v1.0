@@ -51,8 +51,9 @@ fieldset{
 }
 .image{
     position: absolute;
+    top: 20px;
     left: 0px;
-    width: 100px;
+    width: 200px;
 }
 h4{
     color:  #395aad;
