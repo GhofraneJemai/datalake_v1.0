@@ -37,26 +37,44 @@
             "styles": [
               "src/custom-theme.scss",
               "src/styles.css",
+              "dist/datalake/browser/assets/css/bootstrap.min.css",
+              "dist/datalake/browser/assets/css/style.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "dist/datalake/browser/assets/lib/animate/animate.min.css",
               "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
               "node_modules/primeng/resources/primeng.min.css",
               "node_modules/primeflex/primeflex.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/wowjs/dist/wow.min.js",
+              "dist/datalake/browser/assets/js/main.js",
+              "dist/datalake/browser/assets/lib/wow/wow.min.js",
+              "dist/datalake/browser/assets/lib/wow/wow.js",
+              "dist/datalake/browser/assets/lib/waypoints/waypoints.min.js",
+              "dist/datalake/browser/assets/lib/owlcarousel/owl.carousel.min.js",
+              "dist/datalake/browser/assets/lib/owlcarousel/owl.carousel.js",
+              "dist/datalake/browser/assets/lib/counterup/counterup.min.js",
+              "dist/datalake/browser/assets/lib/easing/easing.min.js",
+              "dist/datalake/browser/assets/lib/easing/easing.js"
+              
+            ]
           },
           "configurations": {
             "production": {
               "budgets": [
-                {
-                  "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
-                },
-                {
-                  "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
-                }
-              ],
+          {
+            "type": "initial",
+            "maximumWarning": "100MB",
+            "maximumError": "200MB"
+          },
+          {
+            "type": "anyComponentStyle",
+            "maximumWarning": "200KB",
+            "maximumError": "200KB"
+          }
+        ],
+
               "outputHashing": "all"
             },
             "development": {

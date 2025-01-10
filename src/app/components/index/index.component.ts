@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   styleUrl: './index.component.css'
 })
 export class IndexComponent {
-  opened=false;
-
+  
 }
 
